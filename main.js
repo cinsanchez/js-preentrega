@@ -1,6 +1,8 @@
-
 let opcionProducto = true
 let tipoProducto = true
+
+const botonCompra = document.getElementById("botonInicia")
+botonCompra.addEventListener("click", compraProducto)
 
 function Producto(id, tipo, marca, precio, stock){
     this.id = id
@@ -30,7 +32,7 @@ const producto13 = new Producto(13, "Hidratante - Green Tea Emulsion", "Instree"
 const producto14 = new Producto(14, "Hidratante - Snail Recovery", "Mizon", "11.120 CLP", 50)
 const producto15 = new Producto(15, "Hidratante - Avocado Relief Cream", "Frudia", "19.120 CLP", 51)
 
-const carritoCompra = [];
+const carritoCompra = JSON.parse(localStorage.getItem("listaProductos") || '[]');
 
 function compraProducto(){
     do {
@@ -131,7 +133,12 @@ function compraProducto(){
         }
 
     }while(opcionProducto)
+
+    const guardaLocal = (clave, valor) => {localStorage.setItem(clave, valor)}
+    guardaLocal("listaProductos", JSON.stringify(carritoCompra))
+    const listaProductos = JSON.parse(localStorage.getItem("listaProductos"))
+
+    // compraProducto()
+    console.table(carritoCompra)
 }
 
-compraProducto()
-console.table(carritoCompra)
