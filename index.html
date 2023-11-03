@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>With care - skincare</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>With care - skincare</h1>
 
-    <!-- <div>
-        <button id="botonInicia">Inicia aquí tu pedido</button>
-    </div> -->
+    <div class="topbanner">
+        <h1 class="topbanner">With care - skincare</h1>
 
-    <div>Instrucciones de compra
+        <p>Instrucciones de compra</p>
         <ol>
             <li>Revisa los productos disponibles</li>
             <li>Haz clic en "Agregar" a los que quieres agregar a tu lista de compra</li>
@@ -21,203 +22,26 @@
         </ol>
     </div>
 
-    <h2>Listado productos</h2>
+    <div class="container">
+        <h2>Listado productos</h2>
+        
+        <div id="listaProductosdiv" class="row row-cols-1 row-cols-md-3 mb-5 bg-light bg-gradient">
 
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                    <table>
-                        <th>Limpiadores</th>
-                        <th>Nombre</th>
-                        <th>Marca</th>
-                        <th>Precio CLP</th>
-                        <th>Cantidad disponible</th>
-                        <th>Añadir al carrito</th>
-                        
-                        <tr>
-                            <td></td>
-                            <td>1. Green Tea</td>
-                            <td>Instree</td>
-                            <td>13.500</td>
-                            <td>10</td>
-                            <td><button id="agregaProducto1">Agregar</button></td>
-                        </tr>
-                
-                        <tr>
-                            <td></td>
-                            <td>2. Pore Cleansing</td>
-                            <td>Hanskin</td>
-                            <td>21.520</td>
-                            <td>85</td>
-                            <td><button id="agregaProducto2">Agregar</button></td>
-                        </tr>
-                
-                        <tr>
-                            <td></td>
-                            <td>3. Natural coconut</td>
-                            <td>Aromatica</td>
-                            <td>19.120</td>
-                            <td>38</td>
-                            <td><button id="agregaProducto3">Agregar</button></td>
-                        </tr>
+        </div>
+    
+        <div id="divBotonFinaliza">
+            <button id="botonFinaliza"></button>
+    
+             <div id="detalleCompraProductos"></div>
+            <br>
+            <div id="textoTotalCompra"></div>
+            <div id="totalCompra"></div>
+            <div id="totalPago"></div>
+        </div>
+    </div>
+    
 
-                        <tr>
-                            <th>Tónico</th>
-                            <th>Nombre</th>
-                            <th>Marca</th>
-                            <th>Precio CLP</th>
-                            <th>Cantidad disponible</th>
-                            <th>Añadir al carrito</th>
-                        </tr>
-            
-                        <tr>
-                            <td></td>
-                            <td>1. Hyaluronic Acid Toner</td>
-                            <td>Instree</td>
-                            <td>13.520</td>
-                            <td>15</td>
-                            <td><button id="agregaProducto4">Agregar</button></td>
-                        </tr>
-            
-                        <tr>
-                            <td></td>
-                            <td>2. Green Tea Toner</td>
-                            <td>Instree</td>
-                            <td>13.520</td>
-                            <td>69</td>
-                            <td><button id="agregaProducto5">Agregar</button></td>
-                        </tr>
-            
-                        <tr>
-                            <td></td>
-                            <td>3. Snail Repair</td>
-                            <td>Mizon</td>
-                            <td>7.900</td>
-                            <td>24</td>
-                            <td><button id="agregaProducto6">Agregar</button></td>
-                        </tr>
-
-                        <tr>
-                            <th>Mascarillas</th>
-                            <th>Nombre</th>
-                            <th>Marca</th>
-                            <th>Precio CLP</th>
-                            <th>Cantidad disponible</th>
-                            <th>Añadir al carrito</th>
-                        </tr>
-        
-                        <tr>
-                            <td></td>
-                            <td>1. Good night White Sleeping Mask</td>
-                            <td>Mizon</td>
-                            <td>7.920</td>
-                            <td>59</td>
-                            <td><button id="agregaProducto7">Agregar</button></td>
-                        </tr>
-        
-                        <tr>
-                            <td></td><td>2. Ultimate Nourishing Rice</td>
-                            <td>Cosrx</td>
-                            <td>17.520</td>
-                            <td>76</td>
-                            <td><button id="agregaProducto8">Agregar</button></td>
-                        </tr>
-        
-                        <tr>
-                            <td></td><td>3. Clear Skin PHA</td>
-                            <td>Instree</td>
-                            <td>17.520</td>
-                            <td>34</td>
-                            <td><button id="agregaProducto9">Agregar</button></td>
-                        </tr>
-
-                        <tr>
-                            <th>Serúm</th>
-                            <th>Nombre</th>
-                            <th>Marca</th>
-                            <th>Precio CLP</th>
-                            <th>Cantidad disponible</th>
-                            <th>Añadir al carrito</th>
-                        </tr>
-        
-                        <tr>
-                            <td></td>
-                            <td>1. Power 10 Formula</td>
-                            <td>It's skin</td>
-                            <td>14.320</td>
-                            <td>15</td>
-                            <td><button id="agregaProducto10">Agregar</button></td>
-                        </tr>
-        
-                        <tr>
-                            <td></td>
-                            <td>2. C-Niacin</td>
-                            <td>Instree</td>
-                            <td>20.720</td>
-                            <td>82</td>
-                            <td><button id="agregaProducto11">Agregar</button></td>
-                        </tr>
-        
-                        <tr>
-                            <td></td>
-                            <td>3. Reviving Rose Infusion</td>
-                            <td>Aromatica</td>
-                            <td>23.920</td>
-                            <td>44</td>
-                            <td><button id="agregaProducto12">Agregar</button></td>
-                        </tr>
-
-                        <tr>
-                            <th>Hidratante</th>
-                            <th>Nombre</th>
-                            <th>Marca</th>
-                            <th>Precio CLP</th>
-                            <th>Cantidad disponible</th>
-                            <th>Añadir al carrito</th>
-                        </tr>
-        
-                        <tr>
-                            <td></td>
-                            <td>1. Green Tea Emulsion</td>
-                            <td>Instree</td>
-                            <td>12.720</td>
-                            <td>33</td>
-                            <td><button id="agregaProducto13">Agregar</button></td>
-                        </tr>
-        
-                        <tr>
-                            <td></td>
-                            <td>2. Snail Recovery</td>
-                            <td>Mizon</td>
-                            <td>11.120</td>
-                            <td>50</td>
-                            <td><button id="agregaProducto14">Agregar</button></td>
-                        </tr>
-        
-                        <tr>
-                            <td></td>
-                            <td>3. Avocado Relief Cream</td>
-                            <td>Frudia</td>
-                            <td>19.120</td>
-                            <td>51</td>
-                            <td><button id="agregaProducto15">Agregar</button></td>
-                        </tr>
-                    </table>
-                </td>
-                
-                <td>
-                    <div>El resumen de tu compra</div>
-                    <button id="botonFinaliza">Finalizar pedido</button>
-                    <div id="detalleCompraProductos"></div>
-                    <br>
-                    <div>El total de tu compra es:</div>
-                    <div id="totalCompra"></div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="main.js"></script>
 </body>
 </html>

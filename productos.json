@@ -1,0 +1,124 @@
+{
+    "listaProductos":[
+        {
+            "id": "1",
+            "urlimagen": "https://sokobox.cl/cdn/shop/products/ISN30_ISNTREE_Green_Tea_Fresh_Cleanser_1-149623_2048x2048.jpg?v=1693422247",
+            "tipo": "Limpiadora",
+            "descripcion": "Green Tea",
+            "marca": "Instree",
+            "precio": "13500"
+        },
+        {
+            "id": "2",
+            "urlimagen": "https://sokobox.cl/cdn/shop/products/HAN03-HANSKIN_Pore_Cleansing_Oil_BHA-738116_2048x2048.jpg?v=1693422359",
+            "tipo": "Limpiadora",
+            "descripcion": "Pore Cleansing",
+            "marca": "Hanskin",
+            "precio": "21520"
+        },
+        {
+          "id": "3",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/AROM04_Natural_Coconut_Cleansing_Oil_1-690385_2048x2048.jpg?v=1693422356",
+          "tipo": "Limpiadora",
+          "descripcion": "Natural coconut",
+          "marca": "Aromatica",
+          "precio": "19120"
+        },
+        {
+          "id": "4",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/ISN11_Hyaluronic_Acid_Water_Toner_Renewed-985084_2048x2048.jpg?v=1693422249",
+          "tipo": "Tónico",
+          "descripcion": "Hyaluronic Acid Toner",
+          "marca": "Instree",
+          "precio": "13520"
+        },
+        {
+          "id": "5",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/ISN06_ISNTREE_Green_Tea_Fresh_Toner_1-948643_2048x2048.jpg?v=1693422246",
+          "tipo": "Tónico",
+          "descripcion": "Green Tea Toner",
+          "marca": "Instree",
+          "precio": "13520"
+        },
+        {
+          "id": "6",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/MIZON30_Snail_Repair_Intensive_Toner-575293_2048x2048.jpg?v=1693422374",
+          "tipo": "Tónico",
+          "descripcion": "Snail Repair",
+          "marca": "Mizon",
+          "precio": "7900"
+        },
+        {
+          "id": "7",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/MIZON04_Good_night_white_sleeping_mask-872685_2048x2048.jpg?v=1693422243",
+          "tipo": "Mascarillas",
+          "descripcion": "Good night White Sleeping Mask",
+          "marca": "Mizon",
+          "precio": "7920"
+        },
+        {
+          "id": "8",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/COSRX09_COSRX_Ultimate_Nourishing_Rice_Overnight_Spa_Mask_1_aea04a05-f34b-486e-918e-b170f7c65e1c-100686_2048x2048.jpg?v=1693422382",
+          "tipo": "Mascarillas",
+          "descripcion": "Ultimate Nourishing Rice",
+          "marca": "Cosrx",
+          "precio": "17520"
+        },
+        {
+          "id": "9",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/ISN20_Clear_Skin_PHA_Sleeping_Mask-222190_2048x2048.jpg?v=1693422089",
+          "tipo": "Mascarillas",
+          "descripcion": "Clear Skin PHA",
+          "marca": "Instree",
+          "precio": "17520"
+        },
+        {
+          "id": "10",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/image_e7f543ad-46e8-436d-885c-fb1404c31e30-886605_2048x2048.jpg?v=1693422360",
+          "tipo": "Serúm",
+          "descripcion": "Power 10 Formula",
+          "marca": "It's skin",
+          "precio": "14320"
+        },
+        {
+          "id": "11",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/ISN16_ISNTREE_CNiacin_Toning_Ampoule_50ml_1-509329_2048x2048.jpg?v=1693422087",
+          "tipo": "Serúm",
+          "descripcion": "C-Niacin",
+          "marca": "Instree",
+          "precio": "20720"
+        },
+        {
+          "id": "12",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/AROM10_AROMATICA_Reviving_Rose_Infusion_Serum_1-159723_2048x2048.jpg?v=1693422364",
+          "tipo": "Serúm",
+          "descripcion": "Reviving Rose Infusion",
+          "marca": "Aromatica",
+          "precio": "23920"
+        },
+        {
+          "id": "13",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/image-617970_2048x2048.jpg?v=1693422244",
+          "tipo": "Hidratante",
+          "descripcion": "Green Tea Emulsion",
+          "marca": "Instree",
+          "precio": "12720"
+        },
+        {
+          "id": "14",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/MIZON07_Snail_Recovery_Gel_Cream-528697_2048x2048.jpg?v=1693422372",
+          "tipo": "Hidratante",
+          "descripcion": "Snail Recovery",
+          "marca": "Mizon",
+          "precio": "11120"
+        },
+        {
+          "id": "15",
+          "urlimagen": "https://sokobox.cl/cdn/shop/products/FRU10-M_FRUDIA_Avocado_Relief_Cream-416201_2048x2048.jpg?v=1693422054",
+          "tipo": "Hidratante",
+          "descripcion": "Avocado Relief Cream",
+          "marca": "Frudia",
+          "precio": "19120"
+        }
+    ]
+}

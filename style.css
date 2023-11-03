@@ -1,0 +1,11 @@
+.imageproducto {
+    width: 200px;
+    height: 200px;
+  }
+
+.topbanner {
+  background: #FFB6C1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
