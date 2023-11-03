@@ -144,14 +144,3 @@ function eliminaProducto(event){
   resumenCompra()
 }
 
-function datosUsuario(){
-  let divDatos = document.createElement("div")
-  let formularioDatos = document.createElement("form")
-  let formTitulo = document.createElement("label")
-  let inputNoTarjeta = document.createElement("input")
-  let inputExpira = document.createElement("input")
-  let inputCodSeg = document.createElement("input")
-  let intputNombre = document.createElement("input")
-  let botonEnviar = document.createElement("button")
-
-}
